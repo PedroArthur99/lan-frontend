@@ -1,0 +1,40 @@
+<div class="card d-flex justify-content-center align-items-center">
+    <div class="tela-login">
+        <div>
+            <h1>Olá! Acesse a sua conta</h1>
+        </div>
+        <div class="p-3">
+            <form>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" class="form-control">
+                </div>
+                <div>
+                    <p class="texto-azul">Esqueceu sua senha?</p>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-success" type="submit" [routerLink]="['']">Entrar</button>
+                </div>
+            </form>
+        </div>
+        <div class="text-or">
+            <div class="line-left"></div>
+            <p class="amanhatemracha">ou</p>
+            <div class="line-right"></div>
+        </div>
+        <div class="p-3">
+            <div class="botoes">
+                <button class="btn" type="submit"><i class="bi bi-google"></i></button>
+                <button class="btn" type="submit"><i class="bi bi-facebook"></i></button>
+            </div>
+        </div>
+        <div class="registrar">
+            <p class="texto-azul">Ainda não tem conta?</p>
+            <p class="texto-link" [routerLink]="['/sign-up']">Registre-se</p>
+        </div>
+    </div>
+</div>

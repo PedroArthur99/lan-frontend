@@ -1,0 +1,79 @@
+.tela-login {
+    width: 30%;
+    align-items: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.card {
+    border: none;
+}
+
+h1 {
+    font-size: 25px;
+    
+}
+
+h1, label {
+    color: #518FD8;
+    font-weight: bold;
+}
+
+.btn-success, .btn-success:active {
+    background-color: #518FD8;
+    border: none;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.text-or {
+    display: inline-flex;
+    width: 24%;
+    color: #518FD8;
+}
+
+.line-left {
+    width: 100%;
+    padding: 0% 100%;
+    background-image: linear-gradient(to right, white, #518FD8);
+    height: 1px;
+}
+
+.line-right {
+    width: 100%;
+    padding: 0% 100%;
+    background-image: linear-gradient(to right, #518FD8, white);
+    height: 1px;
+}
+
+.amanhatemracha {
+    margin: 0 3px;
+    line-height: 0px;
+}
+
+.botoes {
+    width: 30%;
+    margin: auto;
+    padding: 0 36px;
+}
+
+.registrar p {
+    width: 30%;
+    display: inline;
+    word-wrap: break-word;
+    padding: 50px;
+}
+
+.texto-azul {
+    color: #518FD8;
+    font-weight: bold;
+}
+
+.texto-link {
+    color: rgb(182, 182, 11);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}

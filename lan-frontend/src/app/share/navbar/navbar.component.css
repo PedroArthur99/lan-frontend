@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #518FD8;
+    position: sticky;
+    height: 100px;
+    width: 100%;
+}
+
+img {
+    height: 80px;
+}
+
+.navbar-brand {
+    cursor: pointer;
+}
